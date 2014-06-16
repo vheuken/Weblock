@@ -1,5 +1,8 @@
 == README
 
+This is merely the thin Rails wrapper for Weblock.
+The game logic is located in the {WL4X Gem}[https://github.com/vheuken/wl4x]
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
