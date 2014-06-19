@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:vheuken/wl4x.git
-  revision: dc8d49559a8d09418d0f78ba54fe81a8aa88b51d
+  remote: https://github.com/vheuken/wl4x.git
+  revision: 756c4e2ef529ce23a2b6386415f26c33a2216ecd
   specs:
     wl4x (0.0.1)
 

@@ -38,7 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'wl4x', :git => 'git@github.com:vheuken/wl4x.git'
+gem 'wl4x', :git => 'https://github.com/vheuken/wl4x.git'
 
 group :development, :test do
   gem 'rspec-rails'
