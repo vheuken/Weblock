@@ -2,5 +2,7 @@ language: ruby
 rvm:
   - 2.1.1
   - jruby-1.7.11
+before_script:
+  - rake db:migrate
 script:
   - bundle exec rspec
