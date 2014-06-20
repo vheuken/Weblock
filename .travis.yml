@@ -3,7 +3,7 @@ rvm:
   - 2.1.1
   - 1.9.3
 before_script:
-  - 'printf "test:\n  secret_key_base: foobar" > config/secrets.yml'
+  - 'printf "test:\n  secret_key_base: " > config/secrets.yml && rake secret >> config/secrets.yml'
   - bundle exec rake db:migrate
 script:
   - bundle exec rspec
